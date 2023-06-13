@@ -1,0 +1,157 @@
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.header {
+	background-color: CornflowerBlue;
+	padding: 13px 0px
+}
+
+.header-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-link {
+	color: AntiqueWhite;
+	margin-right: 20px;
+}
+
+.nav-link: nth-child(4) {
+	margin-right: 50px;
+}
+
+.header-top-phone a {
+	color: AntiqueWhite;
+	margin-right: 20px;
+}
+
+.header-top-logo {
+	margin-right: 300px;
+}
+
+.header-top-social-link {
+	margin-right: 25px;
+}
+
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	background-image: url(images/background.png);
+	height: 50vh;
+	
+	background-position: center;
+	background-size: cover;
+	
+	flex: 1 1 auto;
+}
+
+.main-title {
+	color: white;
+	font-size: 55px;
+	font-weight: 700px;
+	
+	padding-top: 50px;
+	padding-left: 200px;
+	
+	text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+
+.main-subtitle {
+	color: white;
+	font-size: 26px;
+	font-weight: 600px;
+	font-height: 45px;
+	padding-left: 500px;
+}
+
+
+.wait-title {
+	font-weight: 500;
+	font-size: 25;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+.wait-content {
+	display: flex;
+	justify-content: center;
+}
+
+.wait-content p {
+	padding: 15px;
+	flex-direction: column;
+}
+
+.wait-image img {
+	width: 500px;
+	border-radius: 25% 10%;
+	padding-right: 70px;
+}
+
+.bullet {
+	margin-left: 0;
+	list-style: none;
+	counter-reset: li;
+}
+.bullet li {
+	position: relative;
+	margin-bottom: 1.5em;
+	border: 3px solid #CADFCF;
+	padding: 0.6em;
+	border-radius: 4px;
+	background: #FEFEFE;
+	color: #231F20;
+}
+.bullet li:before {
+	position: absolute;
+	top: -0.7em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #DCC24B;
+	background: #FEFEFE;
+	border-radius: 50%;
+	counter-increment: li;
+	content: counter(li);
+}
+
+.contacts-map {
+	padding-left: 100px;
+	padding-bottom: 100px;
+}
+
+.adres {
+	display: flex;
+	justify-content: center;
+}
+
+
+.footer {
+	background-color: CornflowerBlue;
+	padding: 20px 0px;
+}
+.footer p {
+	color: AntiqueWhite;
+	font-size: 15px;
+	margin-left: 20px;
+}
